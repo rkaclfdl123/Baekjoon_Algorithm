@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "수 정렬하기.py",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMyq18bwbFWYD9JrmiZS74J",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/rkaclfdl123/Baekjoon_Algorithm/blob/master/2750%EB%B2%88%20%EC%88%98_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fRjFLwfia-L1",
+        "outputId": "dff3b0e4-2a13-477c-cbc0-f3593bb30808"
+      },
+      "source": [
+        "x = int(input())\n",
+        "num_list = []\n",
+        "for i in range(x):\n",
+        "    num_list.append(int(input()))\n",
+        "num_list1 = sorted(num_list)\n",
+        "for i in range(len(num_list)):\n",
+        "    print(num_list1[i])"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "5\n",
+            "3\n",
+            "1\n",
+            "6\n",
+            "8\n",
+            "4\n",
+            "1\n",
+            "3\n",
+            "4\n",
+            "6\n",
+            "8\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
